@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="programacion js.css">
+    <title>PROGRAMACIÓN CON JAVASCRIPT</title>
+</head>
+<body>
+    
+    <h1> Programación con JavaScript</h1>
+    <h2>¿Qué es JavaScript?</h2>
+    <p>JavaScript fue creado para “dar vida a las páginas web”.
+        Los programas en este lenguaje se llaman scripts. <br> Se pueden escribir directamente en el HTML de una página web y ejecutarse automáticamente a medida que se carga la página.
+        Los scripts se proporcionan y ejecutan como texto plano. No necesitan preparación especial o compilación para correr. <br>
+        En este aspecto, JavaScript es muy diferente a otro lenguaje llamado Java. <br>
+        Hoy, JavaScript puede ejecutarse no solo en los navegadores, sino también en servidores o incluso en cualquier dispositivo que cuente con un programa especial llamado El motor o intérprete de JavaScript.
+        El navegador tiene un motor embebido a veces llamado una “Máquina virtual de JavaScript”. <br>
+        Diferentes motores tienen diferentes “nombres en clave”. Por ejemplo: <br>
+        V8 – en Chrome, Opera y Edge. <br>
+        SpiderMonkey – en Firefox. <br>
+        …Existen otros nombres en clave como “Chakra” para IE , “JavaScriptCore”, “Nitro” y “SquirrelFish” para Safari, etc.
+        </p>
+       <div align="center"><img src="/img/javascript.jpg" alt="JAVASCRIPT" width="480" ></div>
+        <h2>¿Qué puede hacer JavaScript en el navegador? </h2>
+        <p>El JavaScript moderno es un lenguaje de programación “seguro”. No proporciona acceso de bajo nivel a la memoria ni a la CPU (UCP); ya que se creó inicialmente para los navegadores, los cuales no lo requieren. <br>
+            En el navegador JavaScript puede realizar cualquier cosa relacionada con la manipulación de una página web, interacción con el usuario y el servidor web. <br>
+            Agregar nuevo HTML a la página, cambiar el contenido existente y modificar estilos. <br>
+            Reaccionar a las acciones del usuario, ejecutarse con los clics del ratón, movimientos del puntero y al oprimir teclas. <br>
+            Enviar solicitudes de red a servidores remotos, descargar y cargar archivos (Tecnologías llamadas AJAX y COMET). <br>
+            Obtener y configurar cookies, hacer preguntas al visitante y mostrar mensajes. <br>
+            Recordar datos en el lado del cliente con el almacenamiento local (“local storage”).
+            </p>
+            <h2>Ejemplo Hola Mundo !  </h2>
+            <p>La sección de arriba suena realmente emocionante, y debería serlo. JavaScript es una de las tecnologías web más emocionantes, y cuando comiences a ser bueno en su uso, tus sitios web entrarán en una nueva dimensión de energía y creatividad.
+                Sin embargo, sentirse cómodo con JavaScript es un poco más difícil que sentirse cómodo con HTML y CSS. Deberás comenzar poco a poco y continuar trabajando en pasos pequeños y consistentes. Para comenzar, mostraremos cómo añadir JavaScript básico a tu página, creando un «¡Hola Mundo!» de ejemplo (el estándar en los ejemplos básicos de programación).
+            </p>
+            <ol>
+                <li>Primero, ve a tu sitio de pruebas y crea una carpeta llamada scripts. Luego, dentro de la nueva carpeta de scripts, crea un nuevo archivo llamado main.js y guárdalo.
+
+                </li>
+                <li>A continuación, abre tu archivo index.html e introduce el siguiente código en una nueva línea, justo antes de la etiqueta de cierre </body>:
+                    HTML  <br>
+                    &lt;script src="scripts/main.js"&gt;&lt;/script&gt;
+                    </li>
+                    <li>Esto hace básicamente el mismo trabajo que el elemento  &lt;link&gt; para CSS: aplica el código JavaScript a la página, para que pueda actuar sobre el HTML (y CSS, o cualquier cosa en la página). </li>
+                    <li>	Ahora añade el siguiente código al archivo main.js:
+                        JS <br>
+                        const miTitulo = document.querySelector("h1"); <br>
+                        miTitulo.textContent = "¡Hola mundo!";  
+                        </li>
+            </ol>
+
+            <div class="centrar">
+                <a href="index.html" class="boton">INICIO</a>
+            </div>
+
+</body>
+</html>

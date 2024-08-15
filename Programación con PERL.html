@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="programacion PERL.CSS">
+    <title>Programación con PERL</title>
+</head>
+<body>
+    <h1>Programación con PERL</h1>
+    <H2>Lenguaje de programación Perl </H2>
+    <P>Perl es un lenguaje de programación versátil que fue desarrollado inicialmente por Larry Wall en 1987. Fue diseñado para ser un lenguaje de procesamiento de textos, pero con los años ha crecido hasta convertirse en un lenguaje de programación de propósito general. <br>
+        El soporte de Perl para expresiones regulares lo hace especialmente adecuado para tareas como el análisis sintáctico y la manipulación de datos de texto. Perl también es conocido por su amplia biblioteca de módulos, que permite realizar tareas complejas con una codificación mínima. <br>
+        Perl es una opción popular para el desarrollo web, la administración de sistemas y la programación de redes. Su flexibilidad y potencia lo convierten en una opción ideal para muchas aplicaciones diferentes. <br>   
+    </P>
+    <div align="center"><img src="/img/perl.png" alt=""></div>
+
+    <h2>¿Cómo funciona Perl?  </h2>
+    <p>Perl es un lenguaje interpretado, lo que significa que no necesita ser compilado como otros lenguajes como C o Java. En su lugar, el código Perl se compila sobre la marcha a medida que se ejecuta. Esto hace que sea fácil escribir y depurar código rápidamente. <br>
+        Perl es un lenguaje dinámico, lo que significa que las variables no necesitan ser declaradas antes de su uso. Esto facilita la escritura rápida de código, pero también puede dar lugar a errores si las variables no se utilizan de forma coherente. <br>
+        Perl es también un lenguaje muy expresivo, con una sintaxis flexible y legible. La sintaxis de Perl está diseñada para que sea fácil de aprender y utilizar, con muchas funciones potentes para manipular datos de texto.
+        </p>
+
+        <h2>Tipos de datos y variables en Perl </h2>
+        <p>Perl tiene varios tipos de datos integrados en el lenguaje, incluyendo escalares, arrays y hashes. Los escalares son variables que contienen un único valor, como un número o una cadena. Los arrays son variables que contienen una lista de valores, y los hashes son variables que contienen pares clave/valor. <br>
+            En Perl, no es necesario declarar las variables antes de utilizarlas. En su lugar, las variables se crean sobre la marcha a medida que se utilizan. Esto facilita la escritura rápida de código, pero también puede conducir a errores si las variables no se utilizan de forma coherente. <br>
+            Perl también soporta referencias, que son variables que contienen una referencia a otra variable. Las referencias son una característica poderosa de Perl, permitiéndole crear estructuras de datos y algoritmos complejos.
+            </p>
+            <h2>Ejemplo</h2>
+            <textarea name="codigo" rows="20" cols="80">
+                #!"C://xampp2/perl/bin/perl.exe"
+                print "Content-type: text/html\n\n"; 
+                print "Hola, Mundo!\n"; 
+                print "<br>"; 
+                #Comentario
+                $numero = 40;
+                print "<br>";
+                print "Valor: $numero";
+                $numero += $numero;
+                print "<br>Valor duplicado: $numero"; 
+                @arreglo=(1, "hola", 7.5);
+                print "<br><br>Valor 2 del arreglo: @arreglo[2]";
+                pop(@arreglo); #quita ultimo valor del arreglo
+                push(@arreglo,  4,  3,  8); #agrega valores al arreglo en orden
+                print "<br><br>Valores del arreglo: ";
+                foreach my $elemento (@arreglo) {
+                print $elemento;
+                     print;
+                }
+                print "<br><br>"; 
+                my $file ="Sebastian.txt"; 
+                open (my $fh, '<', $file); 
+                while (my $line = <$fh>){
+                    print "$line'\n"; 
+                }
+             </textarea>
+             
+             <div class="centrar">
+                <a href="index.html" class="boton">INICIO</a>
+            </div>
+</body>
+</html>
